@@ -40,6 +40,10 @@ def main():
     if len(sys.argv) < 2:
         die("Usage: python from_csv.py my_reviews.csv")
 
+    if sys.argv[1] in ("-h", "--help"):
+        print(__doc__)
+        sys.exit(0)
+
     src = Path(sys.argv[1])
     if not src.exists():
         die(f"Can't find {src}. Check the name, or drag the file into Terminal "
