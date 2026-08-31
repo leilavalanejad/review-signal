@@ -162,6 +162,12 @@ def enrich(themes, products, reviews):
     return themes
 
 
+# A brief nobody finishes reading is not a brief. Every section caps here for
+# the same reason dinner-decider returns three meals: the job is to cut the
+# options down. --themes still shows everything.
+TOP_N = 3
+
+
 def brief(themes, products, reviews):
     a, b = products
     counts = Counter(r["product"] for r in reviews)
@@ -170,6 +176,7 @@ def brief(themes, products, reviews):
 
     moving = [t for t in themes if t["recent_share"] >= 0.55 and t["size"] >= 3]
     moving.sort(key=lambda t: (-t["recent_share"], -t["size"]))
+    moving = moving[:TOP_N]
     if moving:
         out.append("\n\nWHAT'S MOVING   most of this showed up in the last "
                    f"{RECENT_WEEKS} weeks\n")
@@ -183,6 +190,7 @@ def brief(themes, products, reviews):
 
     diverge = [t for t in themes if abs(t["skew"]) >= 3]
     diverge.sort(key=lambda t: -abs(t["skew"]))
+    diverge = diverge[:TOP_N]
     if diverge:
         out.append("\nWHERE THEY DIVERGE   one product owns this\n")
         for t in diverge:
@@ -194,7 +202,7 @@ def brief(themes, products, reviews):
             out.append(f"    \"{t['quote']['text'][:100]}\"")
             out.append("")
 
-    shared = [t for t in themes if abs(t["skew"]) <= 2 and t["size"] >= 3]
+    shared = [t for t in themes if abs(t["skew"]) <= 2 and t["size"] >= 3][:TOP_N]
     if shared:
         out.append("\nTABLE STAKES   both products, so it's the category\n")
         for t in shared:
