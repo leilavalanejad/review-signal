@@ -172,11 +172,31 @@ python mine.py                  # the brief
 python mine.py --compare        # both theme engines, side by side
 python mine.py --themes         # every theme, largest first
 python mine.py --baseline       # the word-overlap version, for contrast
-python mine.py -f mine.json     # your own reviews
 ```
 
-Your file needs `product`, `rating`, `date`, `text` per review, and exactly two
-products. No dependencies beyond the standard library. Python 3.8+.
+No dependencies beyond the standard library. Python 3.8+.
+
+## Running it on real products
+
+**This tool does not fetch reviews.** It has no scraper and no network access.
+You bring the reviews; it does the analysis. That's a deliberate limit, not an
+oversight: review sites have terms about automated collection, and the
+interesting work here was never the fetching.
+
+Collect twenty to thirty reviews per product by hand into a spreadsheet with
+four columns, `product`, `rating`, `date`, `text`, then:
+
+```bash
+python from_csv.py my_reviews.csv    # spreadsheet to JSON, validates as it goes
+python refresh.py -f my_reviews.json # labels them with a model, costs cents
+python mine.py -f my_reviews.json    # the brief, free, and free every rerun
+```
+
+Only the middle step needs an API key. `from_csv.py` tells you which rows it
+skipped and why, which is usually a date formatted as a date rather than as
+text.
+
+Twenty per product is enough. This is looking for themes, not doing statistics.
 
 ## What I'd do next
 
