@@ -1,0 +1,247 @@
+{
+  "_comment": "Theme and sentiment per review, as returned by a model. Cached so this repo runs with no API key and no account. Prompt is in mine.py. KEYED BY A HASH OF THE REVIEW TEXT, not by position. The first version keyed by array index, which meant pointing the tool at your own reviews silently handed review 3 whatever theme sample review 3 had. It didn't error, it just lied. Hashing the text means an unseen review misses the cache and says so.",
+  "generated_with": "claude, batched by product, prompt in mine.py",
+  "key": "sha1(text.strip().lower())[:12]",
+  "assignments": {
+    "6f140f14cbf2": {
+      "theme": "Bank sync reliability",
+      "sentiment": "negative"
+    },
+    "6dec7af0fc8a": {
+      "theme": "Bank sync reliability",
+      "sentiment": "negative"
+    },
+    "8c41a1fa76f3": {
+      "theme": "Bank sync reliability",
+      "sentiment": "negative"
+    },
+    "6aee324d20e1": {
+      "theme": "Bank sync reliability",
+      "sentiment": "negative"
+    },
+    "367d86e768d6": {
+      "theme": "Support quality",
+      "sentiment": "positive"
+    },
+    "caa67de9fadd": {
+      "theme": "Support quality",
+      "sentiment": "positive"
+    },
+    "1bef67867d1e": {
+      "theme": "Support quality",
+      "sentiment": "positive"
+    },
+    "c9ee795942b0": {
+      "theme": "Support quality",
+      "sentiment": "positive"
+    },
+    "e6970161c638": {
+      "theme": "Fee transparency",
+      "sentiment": "negative"
+    },
+    "e29c9b00c6a0": {
+      "theme": "Fee transparency",
+      "sentiment": "negative"
+    },
+    "2c40d8e69576": {
+      "theme": "Fee transparency",
+      "sentiment": "negative"
+    },
+    "ddc85b6cf601": {
+      "theme": "App performance",
+      "sentiment": "negative"
+    },
+    "9c51f080aa6d": {
+      "theme": "App performance",
+      "sentiment": "negative"
+    },
+    "1061c1710183": {
+      "theme": "App performance",
+      "sentiment": "negative"
+    },
+    "e1f06df56888": {
+      "theme": "Goal tracking",
+      "sentiment": "positive"
+    },
+    "c02380c99251": {
+      "theme": "Goal tracking",
+      "sentiment": "positive"
+    },
+    "759793206095": {
+      "theme": "Goal tracking",
+      "sentiment": "positive"
+    },
+    "d609825de5da": {
+      "theme": "Goal tracking",
+      "sentiment": "positive"
+    },
+    "8a2e3a6fd99b": {
+      "theme": "General satisfaction",
+      "sentiment": "positive"
+    },
+    "a6829afe7aac": {
+      "theme": "General satisfaction",
+      "sentiment": "positive"
+    },
+    "0ce32083b1e7": {
+      "theme": "General satisfaction",
+      "sentiment": "positive"
+    },
+    "f0bb0af4bb91": {
+      "theme": "Bank sync reliability",
+      "sentiment": "negative"
+    },
+    "b039a9bd67cb": {
+      "theme": "Joint and shared accounts",
+      "sentiment": "negative"
+    },
+    "cdfbbfda68c2": {
+      "theme": "Joint and shared accounts",
+      "sentiment": "negative"
+    },
+    "da58d12f482a": {
+      "theme": "Reporting",
+      "sentiment": "positive"
+    },
+    "785722ceef5c": {
+      "theme": "Interface and design",
+      "sentiment": "positive"
+    },
+    "ddf136b30f97": {
+      "theme": "Bank sync reliability",
+      "sentiment": "negative"
+    },
+    "95fe05b7ff91": {
+      "theme": "App performance",
+      "sentiment": "negative"
+    },
+    "ff3adec3df08": {
+      "theme": "Fee transparency",
+      "sentiment": "negative"
+    },
+    "b47a40c10fe0": {
+      "theme": "Support quality",
+      "sentiment": "positive"
+    },
+    "974a3179b805": {
+      "theme": "Interface and design",
+      "sentiment": "positive"
+    },
+    "8348c9b60470": {
+      "theme": "Interface and design",
+      "sentiment": "positive"
+    },
+    "f32782f05adf": {
+      "theme": "Interface and design",
+      "sentiment": "positive"
+    },
+    "a9c1c94d150d": {
+      "theme": "Interface and design",
+      "sentiment": "positive"
+    },
+    "0c6270be7fae": {
+      "theme": "Interface and design",
+      "sentiment": "positive"
+    },
+    "3a32d6af0f35": {
+      "theme": "Price increase backlash",
+      "sentiment": "negative"
+    },
+    "b76dd0dc29ed": {
+      "theme": "Price increase backlash",
+      "sentiment": "negative"
+    },
+    "929c53442888": {
+      "theme": "Price increase backlash",
+      "sentiment": "negative"
+    },
+    "32d2993af30e": {
+      "theme": "Price increase backlash",
+      "sentiment": "negative"
+    },
+    "ceb384afd34d": {
+      "theme": "Price increase backlash",
+      "sentiment": "negative"
+    },
+    "41f5a9dad304": {
+      "theme": "Price increase backlash",
+      "sentiment": "negative"
+    },
+    "8a5097b81fc9": {
+      "theme": "Price increase backlash",
+      "sentiment": "negative"
+    },
+    "ec6a250158b8": {
+      "theme": "Support responsiveness",
+      "sentiment": "negative"
+    },
+    "07f1c0456472": {
+      "theme": "Support responsiveness",
+      "sentiment": "negative"
+    },
+    "6b7ee524695a": {
+      "theme": "Support responsiveness",
+      "sentiment": "negative"
+    },
+    "6d8c7ec96eaf": {
+      "theme": "Other",
+      "sentiment": "neutral"
+    },
+    "e9c8a0983ab7": {
+      "theme": "Joint and shared accounts",
+      "sentiment": "negative"
+    },
+    "afad921f41bf": {
+      "theme": "Joint and shared accounts",
+      "sentiment": "negative"
+    },
+    "89c73762a0dc": {
+      "theme": "Joint and shared accounts",
+      "sentiment": "negative"
+    },
+    "a51bb310269f": {
+      "theme": "Joint and shared accounts",
+      "sentiment": "negative"
+    },
+    "3b8970073b87": {
+      "theme": "Reporting",
+      "sentiment": "positive"
+    },
+    "3924c0862e96": {
+      "theme": "Reporting",
+      "sentiment": "positive"
+    },
+    "c13576e3608f": {
+      "theme": "Reporting",
+      "sentiment": "positive"
+    },
+    "3764d2b6c923": {
+      "theme": "Bank sync reliability",
+      "sentiment": "negative"
+    },
+    "b8f8c8586b9a": {
+      "theme": "Bank sync reliability",
+      "sentiment": "negative"
+    },
+    "c7d3b35d2660": {
+      "theme": "Interface and design",
+      "sentiment": "positive"
+    },
+    "7830600782f2": {
+      "theme": "General satisfaction",
+      "sentiment": "positive"
+    },
+    "c73001998138": {
+      "theme": "Price increase backlash",
+      "sentiment": "negative"
+    },
+    "f5e7b2c84c10": {
+      "theme": "Price increase backlash",
+      "sentiment": "negative"
+    },
+    "b982e0ecc8c0": {
+      "theme": "Interface and design",
+      "sentiment": "positive"
+    }
+  }
+}

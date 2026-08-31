@@ -1,0 +1,365 @@
+{
+  "_comment": "Both products are INVENTED. Mining and publishing a real company's reviews in a public repo means making claims about a real product, and this project is about the analysis, not about any actual app. Swap in a CSV of real reviews to use it for real work.",
+  "reviews": [
+    {
+      "product": "Nestwell",
+      "rating": 2,
+      "date": "2026-08-14",
+      "text": "Bank sync broke again this week. Third time this month I've had to reconnect my checking account. Support was lovely about it but that's not the point."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 2,
+      "date": "2026-08-09",
+      "text": "The connection to my credit union drops constantly. Everything else about this app is good which makes it more frustrating."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 3,
+      "date": "2026-08-02",
+      "text": "Sync issues with my bank started around June. Was rock solid before that."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 2,
+      "date": "2026-07-28",
+      "text": "Reconnecting accounts every few days is exhausting. Please fix the sync."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 5,
+      "date": "2026-08-20",
+      "text": "Customer support is genuinely the best I have dealt with in any app. Real person, replied in an hour, fixed it."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 5,
+      "date": "2026-08-11",
+      "text": "Emailed support on a Sunday and got a real answer Monday morning. Rare these days."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 4,
+      "date": "2026-07-19",
+      "text": "Support team is excellent. They walked me through the goal setup on a call."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 5,
+      "date": "2026-06-30",
+      "text": "Whoever runs their support deserves a raise. Patient and actually knowledgeable."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 3,
+      "date": "2026-08-16",
+      "text": "I still don't understand what I'm being charged. The fee page mentions a percentage but my statement shows something else."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 2,
+      "date": "2026-07-22",
+      "text": "Fees are not clearly explained anywhere. Had to email to find out what I actually pay."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 3,
+      "date": "2026-06-18",
+      "text": "Took me twenty minutes to work out the fee structure. Should be one sentence."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 2,
+      "date": "2026-08-05",
+      "text": "App takes forever to load the dashboard. Ten seconds sometimes."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 3,
+      "date": "2026-07-11",
+      "text": "Slow. Especially the transactions screen with a lot of history."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 3,
+      "date": "2026-06-25",
+      "text": "Performance has gotten worse over the last few updates."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 5,
+      "date": "2026-08-18",
+      "text": "The goal tracking is the reason I stay. Set a house down payment goal and it actually keeps me honest."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 5,
+      "date": "2026-07-30",
+      "text": "Goals feature is excellent. Visual, simple, motivating."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 4,
+      "date": "2026-07-08",
+      "text": "Love being able to set multiple savings goals and see progress on one screen."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 5,
+      "date": "2026-06-14",
+      "text": "The goal projections are the best I've seen in this category."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 4,
+      "date": "2026-08-21",
+      "text": "Solid app overall. Does what it says."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 5,
+      "date": "2026-08-07",
+      "text": "Been using for two years. Happy."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 4,
+      "date": "2026-07-15",
+      "text": "Good app, worth it."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 1,
+      "date": "2026-08-12",
+      "text": "Sync failure lost a week of transactions. Had to categorize everything by hand again."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 3,
+      "date": "2026-06-09",
+      "text": "Wish it had joint account support for me and my husband."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 3,
+      "date": "2026-07-03",
+      "text": "No way to share a view with my spouse which is a real gap for a household budget app."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 4,
+      "date": "2026-06-21",
+      "text": "Reports are fine but not as detailed as I'd like."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 5,
+      "date": "2026-08-01",
+      "text": "Clean and simple. Doesn't try to do too much."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 2,
+      "date": "2026-08-19",
+      "text": "Sync, sync, sync. Fix it and this is five stars."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 4,
+      "date": "2026-07-25",
+      "text": "Good goal features, slow app, great support. Net positive."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 3,
+      "date": "2026-06-05",
+      "text": "Fee disclosure needs work. Everything else is solid."
+    },
+    {
+      "product": "Nestwell",
+      "rating": 5,
+      "date": "2026-07-17",
+      "text": "Support fixed my duplicate transactions in one email. Impressed."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 5,
+      "date": "2026-08-15",
+      "text": "Best looking finance app I've used. Everything is where you expect it."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 5,
+      "date": "2026-08-03",
+      "text": "The interface is beautiful and fast. No clutter."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 5,
+      "date": "2026-07-21",
+      "text": "Design is genuinely lovely. Makes me want to open it."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 4,
+      "date": "2026-07-06",
+      "text": "Clean UI, easy to navigate, nothing extra."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 5,
+      "date": "2026-06-16",
+      "text": "The cleanest budgeting app on the store. Fast too."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 1,
+      "date": "2026-08-22",
+      "text": "Price went up 40% with two weeks notice. Nothing new added. Cancelling."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 1,
+      "date": "2026-08-18",
+      "text": "They raised the subscription and did not add a single feature. Feels like a bait and switch."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 2,
+      "date": "2026-08-16",
+      "text": "New pricing is hard to justify. Was good value at the old price."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 1,
+      "date": "2026-08-11",
+      "text": "Doubling down on a price increase during a bad economy is a choice. Gone."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 2,
+      "date": "2026-08-09",
+      "text": "Loved this app until the price hike. Now I'm shopping around."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 1,
+      "date": "2026-08-20",
+      "text": "The price increase email was the first I'd heard from them in a year."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 2,
+      "date": "2026-08-06",
+      "text": "Cannot recommend at the new price."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 2,
+      "date": "2026-08-13",
+      "text": "Support took nine days to answer a billing question. Nine days."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 1,
+      "date": "2026-07-29",
+      "text": "No response from support in over a week. There's no phone number anywhere."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 2,
+      "date": "2026-07-12",
+      "text": "Support is email only and slow. Got a canned reply that didn't answer my question."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 2,
+      "date": "2026-06-27",
+      "text": "Waited five days for support. Not acceptable for a paid app."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 3,
+      "date": "2026-08-08",
+      "text": "No joint account support. My wife and I both need to see the household budget."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 2,
+      "date": "2026-07-24",
+      "text": "Still no shared accounts. Been asking for two years."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 3,
+      "date": "2026-07-02",
+      "text": "Single user only which is a strange choice for a budgeting product."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 3,
+      "date": "2026-06-11",
+      "text": "Needs joint accounts. That's the whole ask."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 5,
+      "date": "2026-08-04",
+      "text": "Reporting is excellent. The category breakdowns are genuinely useful."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 5,
+      "date": "2026-07-18",
+      "text": "Best reports of any app I've tried. Exportable too."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 4,
+      "date": "2026-06-23",
+      "text": "Reports and charts are strong."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 4,
+      "date": "2026-08-01",
+      "text": "Sync worked fine for me, no complaints there."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 3,
+      "date": "2026-07-09",
+      "text": "Occasional sync hiccup with one of my banks but nothing major."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 4,
+      "date": "2026-06-19",
+      "text": "Fast, clean, does the job."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 5,
+      "date": "2026-06-07",
+      "text": "Switched from a competitor and the UI alone was worth it."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 3,
+      "date": "2026-08-10",
+      "text": "Good app, bad pricing decision."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 2,
+      "date": "2026-07-31",
+      "text": "Price increase plus slow support is a bad combination."
+    },
+    {
+      "product": "Ledgerly",
+      "rating": 4,
+      "date": "2026-07-14",
+      "text": "Interface is great. Wish support were faster."
+    }
+  ]
+}
